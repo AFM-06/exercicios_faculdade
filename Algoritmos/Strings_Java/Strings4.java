@@ -41,10 +41,10 @@ public class Strings4 {
         }else{
             System.out.println("A String não possui mais do que 1 caracter.");
         }
-
         char[] usuario_c_inverse = usuario.toCharArray();
         for(int j = usuario_c_inverse.length-1;j>=0;j--){
             System.out.print(usuario_c_inverse[j]);
         }
-        }
+        leitor.close();
     }
+}

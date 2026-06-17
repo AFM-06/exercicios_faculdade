@@ -44,7 +44,6 @@ public class Strings2 {
         for(int i=palavra1.length-1;i>=0;i--){
             System.out.print(palavra1[i]);
         }
-
-
+        ler.close();
     }
 }

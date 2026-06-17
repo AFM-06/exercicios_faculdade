@@ -34,6 +34,7 @@ public class Strings3 {
             System.out.print(S1_inverse[i]);
         }
 
+        leitor.close();
 
     }
 }
