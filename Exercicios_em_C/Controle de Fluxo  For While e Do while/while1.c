@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <locale.h>
+#include <windows.h>
 
 int main(){
-    setlocale(LC_ALL, "pt_BR.UTF-8");
+    SetConsoleOutputCP(CP_UTF8);
     int soma = 1;
     unsigned int fatorial;
     printf("Informe um número para saber seu fatorial: ");

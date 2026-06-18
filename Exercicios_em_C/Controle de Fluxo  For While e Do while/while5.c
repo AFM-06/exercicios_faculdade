@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <locale.h>
+#include <windows.h>
 
 int main(){
-    setlocale(LC_ALL, "Portuguese");
+    SetConsoleOutputCP(CP_UTF8);
 
     int num;
     int soma = 0;
